@@ -7,7 +7,7 @@ void bubbleSort(int arr[], int n){
 	//deklarasi variabel
   int i, j, tmp;
   for (i = 0; i < n; i++){
-  	//membandingkan nilai array nilai yang lebih kecil dipindah ke kiri/depan
+  	//membandingkan nilai array nilai yang lebih kecil akan dipindah ke kiri/depan
     for (j = 0; j < n - i - 1; j++){
       if (arr[j] > arr[j + 1]){
         tmp = arr[j];
